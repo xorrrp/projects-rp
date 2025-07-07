@@ -1,8 +1,10 @@
 <template>
     <div>
-        <aio-header />
-        <navbar />
+<!--        <aio-header />-->
+<!--        <navbar />-->
+<!--        <aio-footer />-->
+    </div>
+    <div>
         <comp />
-        <aio-footer />
     </div>
 </template>

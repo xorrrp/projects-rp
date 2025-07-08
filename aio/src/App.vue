@@ -1,10 +1,6 @@
 <template>
-    <div>
-<!--        <aio-header />-->
-<!--        <navbar />-->
+    <aio-header />
+    <navbar />
 <!--        <aio-footer />-->
-    </div>
-    <div>
-        <comp />
-    </div>
+    <comp />
 </template>

@@ -20,7 +20,7 @@ export default {
             },
             options: {
                 responsive: true,
-                maintainAspectRatio: false
+                maintainAspectRatio: true
             }
         })
     }
@@ -28,7 +28,7 @@ export default {
 </script>
 <style scoped>
 canvas {
-    max-width: 600px;
-    height: 300px;
+    max-width: 500px;
+    max-height: 200px;
 }
 </style>

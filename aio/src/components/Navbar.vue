@@ -1,8 +1,8 @@
 <template>
     <nav>
-        <a href="#">Account</a>
-        <a href="#">Home</a>
-        <a href="#">Account</a>
+        <button @click="$emit('switchView', 'portfolio')">Portfolio</button>
+        <button @click="$emit('switchView', 'home')">Home</button>
+        <button @click="$emit('switchView', 'comp')">Account</button>
     </nav>
 </template>
 <style scoped>

@@ -7,7 +7,7 @@
 <style scoped>
     header {
         margin: 10px 50px;
-        font-family: Jokerman;
+        font-family: Jokerman,fantasy;
         text-align: center;
         font-size: 2rem;
         color: yellow;

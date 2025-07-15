@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/.idea/comp1230.iml" filepath="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/.idea/comp1230.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../School/Computer Programming/notes-rp/.idea/notes-rp.iml" filepath="$PROJECT_DIR$/../School/Computer Programming/notes-rp/.idea/notes-rp.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/projects-rp.iml" filepath="$PROJECT_DIR$/.idea/projects-rp.iml" />
     </modules>
   </component>

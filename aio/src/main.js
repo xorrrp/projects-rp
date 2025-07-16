@@ -1,13 +1,13 @@
-import './assets/main.css'
+// import './assets/main.css'
 import { createApp } from 'vue'
 import App from './App.vue'
 const app = createApp(App)
-import Navbar from '@/components/Navbar.vue'
-import Header from '@/components/Header.vue'
-import Footer from '@/components/Footer.vue'
-import Comp from '@/components/Comp.vue'
-import Portfolio from '@/components/Portfolio.vue'
-import Home from '@/components/Home.vue'
+import Navbar from './components/Navbar.vue'
+import Header from './components/Header.vue'
+import Footer from './components/Footer.vue'
+import Comp from './components/Comp.vue'
+import Portfolio from './components/Portfolio.vue'
+import Home from './components/Home.vue'
 
 
 app.component('comp', Comp)

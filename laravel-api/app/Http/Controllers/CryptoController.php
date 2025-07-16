@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Http;
 
 class CryptoController extends Controller
 {
-    public function getPrices(Request $request)
+    public function getPrices(Request $reques)
     {
         $symbols = $request->query('symbols', 'BTC,ETH');
         

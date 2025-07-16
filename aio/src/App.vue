@@ -22,10 +22,35 @@
 <!--    }-->
 <!--}-->
 <!--</script>-->
+<!--<template>-->
+<!--    <Portfolio />-->
+<!--</template>-->
+
+<!--<script>-->
+<!--</script>-->
 <template>
-    <Portfolio />
+    <div>
+        <h1>User List</h1>
+        <ul>
+            <li v-for="user in users" :key="user.id">
+                {{ user.name }}
+            </li>
+        </ul>
+    </div>
 </template>
 
 <script setup>
-import Portfolio from './components/Portfolio.vue';
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+
+const users = ref([])
+
+onMounted(async () => {
+    try {
+        const response = await axios.get('/api/users')
+        users.value = response.data
+    } catch (error) {
+        console.error('API call failed:', error)
+    }
+})
 </script>

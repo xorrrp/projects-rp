@@ -3,8 +3,14 @@
   <component name="PHPUnit">
     <option name="directories">
       <list>
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/laracasts/tests/Unit" />
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/laracasts/tests/Feature" />
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/laravel-app/tests/Unit" />
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/laravel-app/tests/Feature" />
         <option value="$PROJECT_DIR$/laravel-api/tests/Unit" />
         <option value="$PROJECT_DIR$/laravel-api/tests/Feature" />
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/hello-world-app/tests/Unit" />
+        <option value="$PROJECT_DIR$/../../../../xampp/htdocs/comp1230/hello-world-app/tests/Feature" />
       </list>
     </option>
   </component>
